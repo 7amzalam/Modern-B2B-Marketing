@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Digital Growth | Data-Driven B2B Marketing</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: '#0a192f',
+                        accent: '#ff6b6b',
+                        light: '#f8f9fa',
+                        dark: '#172a45'
+                    },
+                    fontFamily: {
+                        inter: ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-light text-gray-800">
+    <!-- Navigation -->
+    <header class="sticky top-0 z-50 bg-white nav-shadow">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center">
+                    <div class="flex items-center space-x-2">
+                        <div class="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
+                            <span class="text-white font-bold text-xl">A</span>
+                        </div>
+                        <span class="font-bold text-xl text-navy">Apex Digital</span>
+                    </div>
+                </div>
+                
+                <nav class="hidden md:flex space-x-10">
+                    <a href="#services" class="text-gray-600 hover:text-navy font-medium transition">Services</a>
+                    <a href="#results" class="text-gray-600 hover:text-navy font-medium transition">Results</a>
+                    <a href="#process" class="text-gray-600 hover:text-navy font-medium transition">Process</a>
+                    <a href="#contact" class="text-gray-600 hover:text-navy font-medium transition">Consultation</a>
+                </nav>
+                
+                <a href="#contact" class="hidden md:block bg-accent text-white px-6 py-2 rounded-lg font-medium hover:bg-opacity-90 transition">Get Started</a>
+                
+                <button class="md:hidden text-gray-600">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
+            <div class="max-w-3xl mx-auto text-center">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                    Stop Guessing. Start Growing.
+                </h1>
+                <p class="text-xl md:text-2xl text-blue-100 mb-10 max-w-2xl mx-auto">
+                    Data-Driven Marketing for B2B Companies
+                </p>
+                <p class="text-lg text-blue-100 mb-12 max-w-2xl mx-auto">
+                    Our proven strategies in SEO, PPC, and Content Marketing help B2B companies generate qualified leads and accelerate revenue growth.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="#contact" class="btn-accent text-white px-8 py-4 rounded-xl font-bold text-lg">
+                        Book Free Consultation
+                    </a>
+                    <a href="#services" class="bg-white bg-opacity-10 px-8 py-4 rounded-xl font-medium text-lg border border-white border-opacity-20 hover:bg-opacity-20 transition">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-navy mb-4">Our Core Services</h2>
+                <p class="text-gray-600 text-lg">Specialized marketing solutions designed for B2B growth</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Service 1: SEO -->
+                <div class="card-hover bg-white rounded-2xl p-8 border border-gray-100">
+                    <div class="w-16 h-16 rounded-full bg-blue-50 flex items-center justify-center mb-6">
+                        <i class="fas fa-search text-2xl text-accent"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy mb-4">Search Engine Optimization</h3>
+                    <p class="text-gray-600 mb-6">
+                        Drive organic traffic with our comprehensive SEO strategies. We optimize your technical infrastructure, content, and backlink profile for sustainable growth.
+                    </p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-accent mr-2"></i>
+                            <span>Keyword research & strategy</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-accent mr-2"></i>
+                            <span>Technical optimization</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-accent mr-2"></i>
+                            <span>Content planning & creation</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Service 2: PPC -->
+                <div class="card-hover bg-white rounded-2xl p-8 border border-gray-100">
+                    <div class="w-16 h-16 rounded-full bg-blue-50 flex items-center justify-center mb-6">
+                        <i class="fas fa-bullseye text-2xl text-accent"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy mb-4">Pay-Per-Click Advertising</h3>
+                    <p class="text-gray-600 mb-6">
+                        Generate immediate results with targeted PPC campaigns. We create and manage high-converting ads across Google, LinkedIn, and industry platforms.
+                    </p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-accent mr-2"></i>
+                            <span>Campaign strategy & setup</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-accent mr-2"></i>
+                            <span>Audience targeting & segmentation</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-accent mr-2"></i>
+                            <span>ROI optimization</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Service 3: Content Marketing -->
+                <div class="card-hover bg-white rounded-2xl p-8 border border-gray-100">
+                    <div class="w-16 h-16 rounded-full bg-blue-50 flex items-center justify-center mb-6">
+                        <i class="fas fa-pen-fancy text-2xl text-accent"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy mb-4">Content Marketing</h3>
+                    <p class="text-gray-600 mb-6">
+                        Build authority and nurture leads with strategic content. We develop educational resources that position your brand as an industry leader.
+                    </p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-accent mr-2"></i>
+                            <span>Content strategy & planning</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-accent mr-2"></i>
+                            <span>Blogs, whitepapers & case studies</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-accent mr-2"></i>
+                            <span>Lead nurturing campaigns</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="results" class="py-20 bg-blue-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-navy mb-4">Proven Results for B2B Companies</h2>
+                <p class="text-gray-600 text-lg">See how we've helped clients achieve measurable growth</p>
+            </div>
+            
+            <!-- Client Logos -->
+            <div class="flex flex-wrap justify-center items-center gap-10 mb-16">
+                <div class="bg-white p-6 rounded-xl shadow-sm">
+                    <div class="text-3xl font-bold text-navy">TechNova</div>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm">
+                    <div class="text-3xl font-bold text-navy">B2BCloud</div>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm">
+                    <div class="text-3xl font-bold text-navy">SaaSPro</div>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm">
+                    <div class="text-3xl font-bold text-navy">EnterpriseAI</div>
+                </div>
+            </div>
+            
+            <!-- Case Studies -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- Case Study 1 -->
+                <div class="testimonial-card bg-white rounded-2xl p-8 border border-gray-100">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0">
+                            <div class="w-16 h-16 rounded-full bg-gradient-to-r from-accent to-orange-400 flex items-center justify-center">
+                                <span class="text-white text-xl font-bold">TN</span>
+                            </div>
+                        </div>
+                        <div class="ml-6">
+                            <h3 class="text-xl font-bold text-navy mb-2">TechNova Solutions</h3>
+                            <div class="flex items-center mb-4">
+                                <div class="flex text-yellow-400">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="ml-2 text-gray-600">Enterprise Software</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-t border-gray-200 pt-6 mt-6">
+                        <div class="grid grid-cols-2 gap-6">
+                            <div>
+                                <p class="text-3xl font-bold text-accent mb-1">+150%</p>
+                                <p class="text-gray-600">Increase in Qualified Leads</p>
+                            </div>
+                            <div>
+                                <p class="text-3xl font-bold text-accent mb-1">6 Months</p>
+                                <p class="text-gray-600">Time to Achieve Results</p>
+                            </div>
+                        </div>
+                        <p class="mt-6 text-gray-600 italic">
+                            "Apex Digital transformed our lead generation with a comprehensive SEO and content strategy. We're now seeing a consistent flow of high-quality leads from our target industries."
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Case Study 2 -->
+                <div class="testimonial-card bg-white rounded-2xl p-8 border border-gray-100">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0">
+                            <div class="w-16 h-16 rounded-full bg-gradient-to-r from-accent to-orange-400 flex items-center justify-center">
+                                <span class="text-white text-xl font-bold">BC</span>
+                            </div>
+                        </div>
+                        <div class="ml-6">
+                            <h3 class="text-xl font-bold text-navy mb-2">B2BCloud Services</h3>
+                            <div class="flex items-center mb-4">
+                                <div class="flex text-yellow-400">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="ml-2 text-gray-600">Cloud Infrastructure</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-t border-gray-200 pt-6 mt-6">
+                        <div class="grid grid-cols-2 gap-6">
+                            <div>
+                                <p class="text-3xl font-bold text-accent mb-1">2.3x</p>
+                                <p class="text-gray-600">Return on Ad Spend</p>
+                            </div>
+                            <div>
+                                <p class="text-3xl font-bold text-accent mb-1">+80%</p>
+                                <p class="text-gray-600">Increase in Demo Requests</p>
+                            </div>
+                        </div>
+                        <p class="mt-6 text-gray-600 italic">
+                            "Their PPC expertise helped us break into new markets with precision targeting. We achieved a 230% ROI on our ad spend within the first quarter of working together."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="py-20 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-navy mb-4">Our Data-Driven Process</h2>
+                <p class="text-gray-600 text-lg">A systematic approach to achieving measurable growth</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Step 1 -->
+                <div class="process-step relative pl-10 md:pl-0">
+                    <div class="bg-blue-50 w-16 h-16 rounded-xl flex items-center justify-center mb-6">
+                        <span class="text-2xl font-bold text-accent">1</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy mb-3">Discover</h3>
+                    <p class="text-gray-600">
+                        We conduct in-depth analysis of your business, market, and competitors to identify growth opportunities.
+                    </p>
+                </div>
+                
+                <!-- Step 2 -->
+                <div class="process-step relative pl-10 md:pl-0">
+                    <div class="bg-blue-50 w-16 h-16 rounded-xl flex items-center justify-center mb-6">
+                        <span class="text-2xl font-bold text-accent">2</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy mb-3">Strategize</h3>
+                    <p class="text-gray-600">
+                        We develop a customized marketing strategy with clear KPIs and measurable objectives.
+                    </p>
+                </div>
+                
+                <!-- Step 3 -->
+                <div class="process-step relative pl-10 md:pl-0">
+                    <div class="bg-blue-50 w-16 h-16 rounded-xl flex items-center justify-center mb-6">
+                        <span class="text-2xl font-bold text-accent">3</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy mb-3">Execute</h3>
+                    <p class="text-gray-600">
+                        Our experts implement the strategy with precision, using best-in-class tools and methodologies.
+                    </p>
+                </div>
+                
+                <!-- Step 4 -->
+                <div class="process-step relative pl-10 md:pl-0">
+                    <div class="bg-blue-50 w-16 h-16 rounded-xl flex items-center justify-center mb-6">
+                        <span class="text-2xl font-bold text-accent">4</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy mb-3">Measure</h3>
+                    <p class="text-gray-600">
+                        We track performance, analyze data, and optimize campaigns for continuous improvement.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-gradient-to-r from-navy to-dark text-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Accelerate Your Growth?</h2>
+                <p class="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+                    Schedule your free consultation and discover how our data-driven approach can transform your B2B marketing.
+                </p>
+                <a href="#contact" class="btn-accent text-white px-8 py-4 rounded-xl font-bold text-lg inline-block">
+                    Book Your Free Strategy Session
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="py-20 bg-light">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-white rounded-2xl shadow-xl overflow-hidden">
+                    <div class="md:flex">
+                        <div class="md:w-2/5 bg-gradient-to-br from-navy to-dark p-8 text-white">
+                            <h2 class="text-3xl font-bold mb-6">Free Consultation</h2>
+                            <p class="mb-6 text-blue-100">
+                                Let's discuss your goals and how we can help you achieve them with data-driven marketing.
+                            </p>
+                            <div class="space-y-4">
+                                <div class="flex items-start">
+                                    <div class="flex-shrink-0 mt-1">
+                                        <i class="fas fa-calendar-check text-accent text-xl"></i>
+                                    </div>
+                                    <div class="ml-4">
+                                        <h3 class="font-bold">30-Minute Session</h3>
+                                        <p class="text-blue-100 text-sm">No obligation, just valuable insights</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <div class="flex-shrink-0 mt-1">
+                                        <i class="fas fa-chart-line text-accent text-xl"></i>
+                                    </div>
+                                    <div class="ml-4">
+                                        <h3 class="font-bold">Growth Strategy</h3>
+                                        <p class="text-blue-100 text-sm">Personalized recommendations for your business</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <div class="flex-shrink-0 mt-1">
+                                        <i class="fas fa-lightbulb text-accent text-xl"></i>
+                                    </div>
+                                    <div class="ml-4">
+                                        <h3 class="font-bold">Expert Advice</h3>
+                                        <p class="text-blue-100 text-sm">From our B2B marketing specialists</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="md:w-3/5 p-8">
+                            <form>
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                                    <div>
+                                        <label for="name" class="block text-gray-700 font-medium mb-2">Full Name</label>
+                                        <input type="text" id="name" class="form-input w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent" placeholder="Your name">
+                                    </div>
+                                    <div>
+                                        <label for="company" class="block text-gray-700 font-medium mb-2">Company</label>
+                                        <input type="text" id="company" class="form-input w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent" placeholder="Your company">
+                                    </div>
+                                </div>
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                                    <div>
+                                        <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+                                        <input type="email" id="email" class="form-input w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent" placeholder="you@company.com">
+                                    </div>
+                                    <div>
+                                        <label for="phone" class="block text-gray-700 font-medium mb-2">Phone</label>
+                                        <input type="tel" id="phone" class="form-input w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent" placeholder="(123) 456-7890">
+                                    </div>
+                                </div>
+                                <div class="mb-6">
+                                    <label for="message" class="block text-gray-700 font-medium mb-2">How can we help?</label>
+                                    <textarea id="message" rows="4" class="form-input w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent" placeholder="Tell us about your marketing goals..."></textarea>
+                                </div>
+                                <button type="submit" class="btn-accent text-white w-full py-4 rounded-lg font-bold text-lg">
+                                    Request Free Consultation
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-navy text-white py-12">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center space-x-2 mb-6">
+                        <div class="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
+                            <span class="text-white font-bold text-xl">A</span>
+                        </div>
+                        <span class="font-bold text-xl">Apex Digital</span>
+                    </div>
+                    <p class="text-blue-100 mb-6">
+                        Data-driven marketing solutions for B2B companies focused on sustainable growth.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-blue-100 hover:text-white">
+                            <i class="fab fa-linkedin-in text-xl"></i>
+                        </a>
+                        <a href="#" class="text-blue-100 hover:text-white">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" class="text-blue-100 hover:text-white">
+                            <i class="fab fa-facebook-f text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-bold mb-6">Services</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-blue-100 hover:text-white transition">SEO for B2B</a></li>
+                        <li><a href="#" class="text-blue-100 hover:text-white transition">PPC Advertising</a></li>
+                        <li><a href="#" class="text-blue-100 hover:text-white transition">Content Marketing</a></li>
+                        <li><a href="#" class="text-blue-100 hover:text-white transition">Marketing Automation</a></li>
+                        <li><a href="#" class="text-blue-100 hover:text-white transition">Analytics & Reporting</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-bold mb-6">Company</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-blue-100 hover:text-white transition">About Us</a></li>
+                        <li><a href="#" class="text-blue-100 hover:text-white transition">Our Process</a></li>
+                        <li><a href="#" class="text-blue-100 hover:text-white transition">Case Studies</a></li>
+                        <li><a href="#" class="text-blue-100 hover:text-white transition">Blog</a></li>
+                        <li><a href="#" class="text-blue-100 hover:text-white transition">Careers</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-bold mb-6">Contact</h3>
+                    <ul class="space-y-3 text-blue-100">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3 text-accent"></i>
+                            <span>123 Growth Avenue, Suite 500<br>San Francisco, CA 94107</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-3 text-accent"></i>
+                            <span>(555) 123-4567</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3 text-accent"></i>
+                            <span>hello@apexdigital.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-blue-800 mt-12 pt-8 text-center text-blue-100">
+                <p>© 2023 Apex Digital Growth. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
